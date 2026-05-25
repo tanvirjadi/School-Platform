@@ -1,0 +1,39 @@
+# Root gitignore for School Platform project
+
+# Node / React frontend
+/school-platform-frontend/node_modules/
+/school-platform-frontend/build/
+/school-platform-frontend/.env
+/school-platform-frontend/.env.local
+/school-platform-frontend/.env.development.local
+/school-platform-frontend/.env.test.local
+/school-platform-frontend/.env.production.local
+/school-platform-frontend/npm-debug.log*
+/school-platform-frontend/yarn-debug.log*
+/school-platform-frontend/yarn-error.log*
+
+# Python backend
+/school-platform-backend/__pycache__/
+/school-platform-backend/*.py[cod]
+/school-platform-backend/*.pyo
+/school-platform-backend/*.pyd
+/school-platform-backend/*.db
+/school-platform-backend/.env
+/school-platform-backend/server.log
+/school-platform-backend/venv/
+/school-platform-backend/env/
+
+# Uploaded files / runtime output
+/school-platform-backend/uploads/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.log
+.vscode/
+
+# Git metadata and local configuration
+*.local
+.idea/
